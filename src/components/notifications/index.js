@@ -58,6 +58,7 @@ import Squadcast from "./Squadcast.vue";
 import SMSEagle from "./SMSEagle.vue";
 import Stackfield from "./Stackfield.vue";
 import STMP from "./SMTP.vue";
+import SMTPOAuth2 from "./SMTPOAuth2.vue";
 import Teams from "./Teams.vue";
 import TechulusPush from "./TechulusPush.vue";
 import Telegram from "./Telegram.vue";
@@ -149,6 +150,7 @@ const NotificationFormList = {
     squadcast: Squadcast,
     SMSEagle: SMSEagle,
     smtp: STMP,
+    smtpOAuth2: SMTPOAuth2,
     stackfield: Stackfield,
     teams: Teams,
     telegram: Telegram,

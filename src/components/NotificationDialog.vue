@@ -281,6 +281,7 @@ export default {
                 Resend: "Resend",
                 SendGrid: "SendGrid",
                 smtp: this.$t("smtp"),
+                smtpOAuth2: this.$t("smtpOAuth2"),
             };
 
             // Incident Management - On-call and alerting platforms

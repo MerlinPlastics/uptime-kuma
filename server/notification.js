@@ -55,6 +55,7 @@ const Slack = require("./notification-providers/slack");
 const SMSPartner = require("./notification-providers/smspartner");
 const SMSEagle = require("./notification-providers/smseagle");
 const SMTP = require("./notification-providers/smtp");
+const SMTPOAuth2 = require("./notification-providers/smtp-oauth2");
 const Squadcast = require("./notification-providers/squadcast");
 const Stackfield = require("./notification-providers/stackfield");
 const Teams = require("./notification-providers/teams");
@@ -160,6 +161,7 @@ class Notification {
             new Slack(),
             new SMSEagle(),
             new SMTP(),
+            new SMTPOAuth2(),
             new Squadcast(),
             new Stackfield(),
             new Teams(),
